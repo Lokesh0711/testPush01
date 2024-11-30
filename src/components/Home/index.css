@@ -1,0 +1,36 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30px;
+}
+.input-field {
+  width: 300px;
+  padding-left: 16px;
+  outline: none;
+  border: none;
+}
+.input-container {
+  border: 1px solid #000000;
+  max-width: 400px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.current-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.error-mesg {
+  color: red;
+}
+.button {
+  border: none;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+  width: 136px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.image-tiggle-container {
+  display: flex;
+  justify-content: space-between;
+}
+.save-button {
+  border: none;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+}
+.list-container {
+  display: flex;
+}
